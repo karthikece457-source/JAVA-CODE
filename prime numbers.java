@@ -1,0 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int n=7;
+        String str = prime(7);
+        System.out.println(str);
+    }
+     static String prime(int k)
+     {
+         if(k<2)
+         {
+             return("not prime");
+         }     
+           for (int i=2;i<k;i++){
+               if(k%i==0)
+           {
+            return("not prime");
+           }
+           }
+           return("prime");
+     }
+
+}
+     
+
+         
