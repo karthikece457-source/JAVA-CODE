@@ -24,11 +24,11 @@ class Student {
 public class Main{
      public static void main(String[] args){
          Student[] Student= new Student[3];
-         Student s1= new Student(101,"adhi","CSE","A",2006);
+         Student s1= new Student(101,"karthik","CSE","A",2006);
          Student[0]=s1;
          Student s2= new Student(102,"arun","CSE","A",2006);
          Student[1]=s2;
-         Student[2]= new Student(103,"anu","CSE","A",2006);
+         Student[2]= new Student(103,"Adhi","CSE","A",2006);
          for(int i=0;i<Student.length;i++){
              Student[i].display();
          }
